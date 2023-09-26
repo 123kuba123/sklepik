@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="reset.css">
+
+    <style>
+        * {
+            font-family: 'Lato';
+            box-sizing: border-box;
+        }
+        
+        header {
+            background-color: red;
+            width: 100%;
+            height: 15vh;
+            padding-top: 20px;
+            padding-inline: 30px;
+        }
+
+        .tytul1 {
+            border-color: white;
+            font-weight: bold;
+            width: 100px;
+            letter-spacing: 2px;
+            font-size: 25px;
+            color: white;
+        }
+
+        .tytul2 {
+            font-weight: bold;
+            background-color: white;
+            text-align: center;
+            color: red;
+            width: 100px;
+            letter-spacing: 2px;
+            font-size: 25px;
+        }
+
+        p header {
+            padding-left: 100px;
+        }
+
+        main {
+            display: flex;
+        }
+
+        .s1 {
+            flex: 3;
+            height: 80vh;
+            border-right: 1px solid black;
+        }
+
+        .s2 {
+            flex: 1;
+            height: 80vh;
+
+        }
+
+        footer {
+            background-color: red;
+            width: 100%;
+            height: 18vh;
+            font-weight: bold;
+            color: white;
+            font-size: 15px;
+            text-align: right;
+        }
+
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 20px;
+            color: red;
+            font-size: 35px;
+        }
+
+        h2 {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 20px;
+            color: red;
+            font-size: 35px;
+        }
+
+        nav {
+            width: 300px;
+            text-align: center;
+            padding-top: 10px;
+            padding-left: 50px;
+            font-family: 'Lato';
+            font-weight: bold;
+            color: white;
+        }
+
+        .ulmain {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .li {
+            background-color: rgb(255, 60, 60);
+            border-bottom: 1px solid white;
+            padding-block: 0.2rem;
+            letter-spacing: 1px;
+        }
+
+        .ul1 {
+            width: 90%;
+            border-radius: 0.25rem
+        }
+
+        .ultitle {
+            background-color: rgb(190, 0, 0);
+            width: 100%;
+            padding-block: 0.25rem;
+            border-radius: 0.25rem;
+            letter-spacing: 1px;
+        }
+
+        .ogloszenia {
+            font-weight: bold;
+            padding-top: 40px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .ogloszenia2 {
+            font-weight: bold;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-size: 20px;
+        }
+
+        a {
+            font-weight: bold;
+            padding-left: 400px;
+            text-decoration: none;
+            color: red;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .stopka {
+            display: flex;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <p class="tytul1">ZEGOWSKA <p class="tytul2"> SZAMA</p></p>
+    </header>
+        <main>
+            <section class="s1">
+                <h1>OGŁOSZENIA</h1>
+                <p class="ogloszenia">W dniu 26.09.2023r. sklepik szkolny będzie otwarty w godzinach
+                   8:50 - 15:10 z dwiema przerwami które odbędą się w godzinach
+                   9:45 (5 minut) oraz 11:30 (10 minut). Przepraszamy za utrudnienia
+                   i zapraszamy serdecznie.
+                </p>
+                <p class="ogloszenia">
+                    Głosowanie na nowe rzeczy w sklepiku!!! Każda osoba może zagłosować tylko
+                    jeden raz. Głosy zbieramy do 15.10.2023r. i od 18.10.2023r. wprowadzimy do
+                    naszego menu kilka nowych pozycji. Głosy można oddawać w sklepiku lub przez
+                    naszą stronę internetową z zakładce "GŁOSOWANIE", którą można znaleźć pod
+                    tym linkiem: <br /><br />
+                </p>
+                <a href="https://www.youtube.com/watch?v=xm3YgoEiEDc&pp=ygUbbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXAgMTBo">
+                    Link do głosowania
+                </a>
+                <p class="ogloszenia">
+                    <p class="ogloszenia2">Rekrutacja na nowych pracowników:</p>
+                    <p class="ogloszenia">
+                        Zegowska szama szuka nowych osób chętnych do pracy! Od kandydatów oczekujemy
+                        systematyczności, odpowiedzialości i gotowości do pracy w każdych
+                        okolicznościach. Wszystkie chętne osoby zapraszamy do wysyłania zgłoszeń na
+                        poniższy adres emial. Zgłoszenie powinno zawierać imię i nazwisko kandydata, 
+                        wiek oraz terminy w których jest chętny pracować.
+                    </p><br /><br />
+                    <a href="mailto:zegowska_szama@gmail.com">Email dla kandydatów</a>
+                </p>
+            </section>
+            <section class="s2">
+                <h2>MENU</h2>
+                <nav>
+                    <ul class="ulmain">
+                        <li class="ultitle">Produkty na ciepło</li>
+                            <ul class="ul1">
+                                <li class="li">Hot dog 4zł</li>
+                                <li class="li">Tost z serem 2zł</li>
+                                <li class="li">Tost z serem i szynką 3zł</li>
+                                <li class="li">Tortilla z kurczakiem 8zł</li>
+                            </ul>
+                        <li  class="ultitle">Produkty na zimno</li>
+                            <ul class="ul1">
+                                <li class="li">Bułka z szynką i serem 3zł</li>
+                                <li class="li">Chipsy 6zł</li>
+                                <li class="li">Żelki 4zł</li>
+                            </ul>
+                        <li  class="ultitle">Napoje na zimno</li>
+                            <ul class="ul1">
+                                <li class="li">Coca-cola (250ml) 4zł</li>
+                                <li class="li">Sprite (250ml) 4zł</li>
+                                <li class="li">Fanta (250ml) 4zł</li>
+                                <li class="li">Woda (500ml) 2zł</li>
+                            </ul>
+                        <li  class="ultitle">Napoje na ciepło</li>
+                            <ul class="ul1">
+                                <li class="li">Herbata 3zł</li>
+                                <li class="li">Kawa czarna 3zł</li>
+                                <li class="li">Kawa z mlekiem 4zł</li>
+                                <li class="li">Kakao 3zł</li>
+                            </ul>
+                    </ul>
+                </nav>
+            </section>
+        </main>
+    <footer>
+        <div class="stopka">
+            <img src="logo.png" alt="ZS4 Tychy">
+        </div>
+            <p>Wykonał Jakub Tarasiewicz</p>
+    </footer>
+</body>
+</html>
